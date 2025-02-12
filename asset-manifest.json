@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/iTok/static/css/main.448c39ef.css",
+    "main.js": "/iTok/static/js/main.7d9d5691.js",
+    "static/media/IBMPlexSans-MediumItalic.ttf": "/iTok/static/media/IBMPlexSans-MediumItalic.b5d2aae060bd17a44e92.ttf",
+    "static/media/IBMPlexSans-BoldItalic.ttf": "/iTok/static/media/IBMPlexSans-BoldItalic.2154ceb10b0ff9a38ed6.ttf",
+    "static/media/IBMPlexSans-Italic.ttf": "/iTok/static/media/IBMPlexSans-Italic.3c841fd3d99ee585c6cd.ttf",
+    "static/media/IBMPlexSans-Medium.ttf": "/iTok/static/media/IBMPlexSans-Medium.e1777542474b207f1248.ttf",
+    "static/media/IBMPlexSans-Regular.ttf": "/iTok/static/media/IBMPlexSans-Regular.0519459d8ed646e0f90d.ttf",
+    "static/media/IBMPlexSans-Bold.ttf": "/iTok/static/media/IBMPlexSans-Bold.c6aebfe2ea10a16d4a22.ttf",
+    "static/media/github.svg": "/iTok/static/media/github.07abef4ed2f7c8801873062976a766ca.svg",
+    "static/media/twitter.svg": "/iTok/static/media/twitter.5214ad3cf7c05ed4edff0e69ce917cfc.svg",
+    "index.html": "/iTok/index.html",
+    "static/media/facebook.svg": "/iTok/static/media/facebook.6c340b9530b1ff951b5e04fcf437f021.svg",
+    "main.448c39ef.css.map": "/iTok/static/css/main.448c39ef.css.map",
+    "main.7d9d5691.js.map": "/iTok/static/js/main.7d9d5691.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.448c39ef.css",
+    "static/js/main.7d9d5691.js"
+  ]
+}
