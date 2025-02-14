@@ -1,112 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iTok - Coming Soon</title>
     <!-- Import IBM Plex Sans font -->
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'IBM Plex Sans', sans-serif; /* Changed to IBM Plex Sans */
-            text-align: center;
-            background: linear-gradient(180deg, #000046 0%, #1CB5E0 100%);
-            color: white;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "IBM Plex Sans", sans-serif;
+        text-align: center;
+        background: linear-gradient(180deg, #000046 0%, #1cb5e0 100%);
+        color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
 
-        .logo {
-            position: absolute;
-            top: 20px;
-            left: 30px;
-            font-weight: bold;
-            font-size: 18px;
-        }
+      .logo {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        font-weight: bold;
+        font-size: 18px;
+      }
 
-        .social-icons {
-            position: absolute;
-            top: 20px;
-            right: 30px;
-        }
+      .social-icons {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+      }
 
-        .social-icons a {
-            color: white;
-            margin: 0 8px;
-            text-decoration: none;
-            font-size: 18px;
-        }
+      .social-icons a {
+        color: white;
+        margin: 0 8px;
+        text-decoration: none;
+        font-size: 18px;
+      }
 
-        .container {
-            max-width: 600px;
-        }
+      .container {
+        max-width: 800px;
+      }
 
-        h1 {
-            font-size: 28px;
-            font-weight: bold;
-        }
+      h1 {
+        font-size: 32px;
+        font-weight: bold;
+      }
 
-        p {
-            font-size: 16px;
-            margin: 10px 0 20px;
-        }
+      p {
+        font-size: 16px;
+        margin: 10px 0 20px;
+      }
 
-        .button {
-            background-color: white;
-            color: black;
-            padding: 10px 20px;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: bold;
-            display: inline-block;
-            transition: 0.3s;
-        }
+      .button {
+        background-color: white;
+        color: black;
+        padding: 10px 20px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+        transition: 0.3s;
+      }
 
-        .button:hover {
-            background-color: #f0f0f0;
-        }
+      .button:hover {
+        background-color: #f0f0f0;
+      }
 
-        .footer {
-            position: absolute;
-            bottom: 20px;
-            font-size: 14px;
-        }
+      .team-section {
+        margin-top: 40px;
+        text-align: center;
+      }
 
-        .footer a {
-            color: white;
-            text-decoration: none;
-        }
+      .team-member {
+        margin: 10px 0;
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 20px;
+        font-size: 14px;
+      }
+
+      .footer a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .graphic-container {
+        margin-top: 30px;
+      }
+
+      .graphic-container img {
+        width: 100%;
+        max-width: 600px;
+        border-radius: 10px;
+      }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="logo">iTok</div>
 
     <div class="social-icons">
-        <!-- design one more with the X logo -->
-        <!-- It should be an a tag with href and the inside should be the X logo icon -->
-        <a href="#">
-
-            <!-- include X.svg from file here -->
-             <img src="./X.svg" alt="">
-
-        </a>
+      <a href="#"><img src="./X.svg" alt="X Logo" /></a>
     </div>
 
     <div class="container">
-        <h1>Coming Soon</h1>
-        <p>Website coming soon. Please check back to know more. Shoot us an email if you're curious.</p>
-        <a href="mailto:info@itok.be" class="button">Send us an email</a>
+      <h1>iTok - Decentralized AI Video Generation</h1>
+      <p>
+        The world's first decentralized AI video/vision generative AI subnet.
+      </p>
+
+      <p>
+        Website coming soon. Please check back to know more. Shoot us an email
+        if you're curious.
+      </p>
+      <a href="mailto:info@itok.be" class="button">Send us an email</a>
+      <div class="graphic-container">
+        <!-- include coin.gif here -->
+        <img
+          src="./coin.gif"
+          alt="Coin Graphic"
+          style="width: 100px; height: auto"
+        />
+      </div>
+      <!-- Meet the Team Section -->
+      <div class="team-section">
+        <h2>Meet the Team</h2>
+        <div class="team-container">
+          <div class="team-member">
+            <h3>Sriram Vishwanath</h3>
+            <p>Professor in ECE at UT Austin.</p>
+          </div>
+          <div class="team-member">
+            <h3>Philippe</h3>
+            <p>PhD student specializing in Vision-Language Models.</p>
+          </div>
+          <div class="team-member">
+            <h3>Batyr</h3>
+            <p>Undergraduate in Computer Science.</p>
+          </div>
+          <div class="team-member">
+            <h3>Praveen</h3>
+            <p>Undergraduate in Computer Science & Mathematics.</p>
+          </div>
+          <div class="team-member">
+            <h3>Sanika</h3>
+            <p>CS Major, Texas Blockchain DevOps Team.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CSS Styling -->
+      <style>
+        .team-section {
+          background: rgba(255, 255, 255, 0.1);
+          padding: 40px;
+          text-align: center;
+          border-radius: 10px;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          width: 90%;
+          max-width: 800px;
+        }
+
+        .team-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+        }
+
+        .team-member {
+          background: white;
+          color: black;
+          padding: 15px;
+          border-radius: 10px;
+          width: 220px;
+          text-align: center;
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-member h3 {
+          margin: 0;
+          font-size: 18px;
+        }
+
+        .team-member p {
+          font-size: 14px;
+          color: #333;
+        }
+
+        .team-member a {
+          display: inline-block;
+          margin-top: 10px;
+          color: #1cb5e0;
+          text-decoration: none;
+          font-weight: bold;
+        }
+
+        .team-member a:hover {
+          text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+          .team-container {
+            flex-direction: column;
+            align-items: center;
+          }
+          .team-member {
+            width: 80%;
+          }
+        }
+      </style>
     </div>
 
-    <div class="footer">
-        UT Austin, <a href="#">2025</a>
-    </div>
-
-</body>
+    <div class="footer">UT Austin, <a href="#">2025</a></div>
+  </body>
 </html>
